@@ -1,0 +1,38 @@
+{
+  "name": "pi-escape-clear-input",
+  "version": "0.1.0",
+  "description": "Pi TUI extension: interrupt active work first, otherwise clear the prompt draft on Escape.",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi",
+    "escape",
+    "editor"
+  ],
+  "author": "852079633",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/852079633/pi-escape-clear-input.git"
+  },
+  "homepage": "https://github.com/852079633/pi-escape-clear-input#readme",
+  "bugs": {
+    "url": "https://github.com/852079633/pi-escape-clear-input/issues"
+  },
+  "files": [
+    "index.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
